@@ -1,0 +1,46 @@
+Elephant
+[edit] Reseña
+
+La actividad tiene por objeto ayudar a personas con disfunciones de lectura a encontrar la posición de una letra determinada en una palabra. La elaboración de la actividad es parte del Curso de Sugar de la Facultad Politécnica de la Universidad Nacional de Asunción.
+
+Consiste en un juego donde la actividad, via síntesis de voz, preguntará al niño sobre la posición de una letra en una palabra que se muestra en pantalla:
+Ejemplo: Donde está la letra F? a la vez que muestra la palabra Elefante
+Luego el niño tendra tres opciones (donde solo una es la correcta) para seleccionar la posición de la letra F en la palabra ELEFANTE.
+
+Release 0.1
+
+1. Recursos
+
+1.1 Lista de unas 50 palabras de entre 5 a 8 letras cada una. Cada palabra debera tener asociada una imagen representativa la de la misma. La actividad deberá tener en cuenta palabras en las siguientes categorías:
+        1.1.1 Animales.
+        1.1.2 Alimentos.
+        1.1.3 Actividades físicas.
+        1.1.4 Transportes.
+        1.1.5 Muebles
+        1.1.6 Familiares 
+
+2. Descripción funcional y puntos a tener en cuenta
+
+    2.1 Se elige aleatoriamente una palabra de la lista.
+    2.2 Se muestra la palabra en pantalla.
+    2.3 Todas las palabras se mostrarán en mayúsculas.
+    2.4 Se elige aleatoriamente una letra de la palabra elegida.
+    2.5 De la letra elegida se determinan su posición en la palabra.
+    2.6 La actividad dicta al niño preguntando donde se encuentra la letra elegida.
+        2.6.1 Se debe tener en cuenta si existen letras repetidas. Ejemplo: En la palabra Jirafa se podrían preguntar:
+        2.6.2 ¿Dónde está la primera letra “a”? o sino ....
+        2.6.3 ¿Dónde está la segunda letra “a”? 
+    2.7 Elegir tres posiciones inválidas adicionales para una selección múltiple.
+    2.8 Sortear posiciones para mostar las opciones (una válida y dos inválidas).
+    2.9 Se espera que el niño elija una de las opciones.
+        2.9.1 Si elije correctamente la XO responde con una frase positiva: “Lo has hecho bien” y a continuación dicta la palabra. Ej.: Jirafa.
+        2.9.2 Si elige incorrectamente la XO responde con una frase de error: “La opción no es correcta. Inténtalo de nuevo” y se regresa al punto 5. 
+    2.3 Solo cuando elige correctamente se termina el juego y se elige una palabra nueva volviendo la punto 1.
+        2.3.1 Se debe tener en cuenta de no repetir las cinco últimas palabras que fueron elegidas con anterioridad. 
+    2.4 Adicionalmente se debe mostrar un bot'on Repetir que, en caso de ser presionado, vuelve a dictar la letra elegida. 
+
+
+Autores
+
+D.Sc. Diego Pinto - dppintoroa@gmail.com
+Lic. Roberto Cristaldo - rcristal@gmail.com 

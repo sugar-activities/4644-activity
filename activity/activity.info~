@@ -1,0 +1,7 @@
+[Activity]
+name = Elephant
+activity_version = 1
+bundle_id = py.una.pol.Elephant
+exec = sugar-activity activity.ElephantActivity
+icon = activity-elephant
+license = GPLv2+
